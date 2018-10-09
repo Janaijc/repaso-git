@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- Los metatagas son un tipo especial de tag de HTML que no requiere un tag de cierre, por si mismo existe y funciona. charset: protocolos de información y comunicació -->
@@ -7,7 +8,22 @@
     <!-- Para que sepa el tamaño de la pagina y para ver si se ve en dispositivos moviles -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculadora</title>
+
+    <style>
+        .titulo 2{
+            background-color:red;
+        }
+    
+    #id_de_algo{
+        background-color: yellowgreen;
+    }
+    p {
+        background-color: tomato !important;
+    }
+    </style>
+
 </head>
+
 <body>
     <!-- Tags de texto -->
 <h1>Header 1</h1>
@@ -48,6 +64,12 @@
     <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
+<h1 style="background-color:blue">Esto es un tag con inline styles</h1>
+
+<p class="titulo 2">Esto es un tag con estilos en <strong>style</strong><p>
+
+<h3 id="id_de_algo">Esto es un tag seleccionado con id</h3>
 
 </body>
 </html>
